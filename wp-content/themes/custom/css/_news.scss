@@ -1,0 +1,52 @@
+.newsSection {
+  padding-top: 3rem;
+}
+.newsContainer {
+  background-color: $transparentWhite;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  text-align: start;
+  h1 {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+}
+.postContainer {
+  border-bottom: $border-bottom;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1rem;
+  h2 {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+}
+
+.date {
+  color: $transparentBlack;
+}
+.paginate {
+  padding-top: 1rem;
+  margin: 0;
+  a,
+  span {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    font-size: small;
+  }
+  a {
+    background-color: rgba(128, 128, 128, 0.527);
+  }
+}
