@@ -1,0 +1,48 @@
+main {
+  font-family: "Roboto", sans-serif;
+  background-color: #f8f8f8;
+  display: grid;
+  justify-content: center;
+  min-height: 80vh;
+}
+.pageSection {
+  margin-top: 18rem;
+  margin-bottom: 8rem;
+}
+.pageContainer {
+  margin: auto;
+  width: 60rem;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.8rem;
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .pageSection {
+    margin-top: 12rem;
+    margin-bottom: 3rem;
+  }
+  .pageContainer {
+    width: 100vw;
+    letter-spacing: 0;
+    line-height: 1.2rem;
+    width: 80vw;
+
+    h1 {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+      margin-top: 0;
+    }
+    p {
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+  }
+}
