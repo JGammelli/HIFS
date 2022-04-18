@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<?php wp_head(); ?>
 	<script>
-		function myFunction() {
+		function dropDownMenu() {
 			var x = document.getElementById("navUl");
 			if (x.style.display === "block") {
 				x.style.display = "none";
@@ -26,7 +26,7 @@
 			<div class="headerContainer">
 				<nav class="topMenuContainer">
 					<div class="headerBar">
-						<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+						<a href="javascript:void(0);" class="icon" onclick="dropDownMenu()">
 							<i class="fa fa-bars"></i>
 						</a>
 						<a href="<?php echo site_url('/')?>" ><img src=<?php echo get_theme_file_uri('/images/hifs.png') ?> height="auto"/></a>
@@ -36,7 +36,7 @@
 							<a href="<?php echo site_url('/')?>" style='<?php echo is_page('Hem') ? "color: #008751" : " " ?>'>Hem</a>
 						</li>
 						<li>
-							<a href="<?php echo site_url('/nyheter')?>" style='<?php echo is_page('nyheter') ? "color: #008751" : " " ?>'>Nyheter</a>
+							<a href="<?php echo site_url('/news')?>" style='<?php echo is_archive() ? "color: #008751" : " " ?>'>Nyheter</a>
 						</li>
 						<li class="menu-item-has-children">
 							<a href="<?php echo site_url('/aktiviteter')?>" style='<?php echo is_page('aktiviteter') ? "color: #008751" : " " ?>'>Aktiviteter 

@@ -1,7 +1,5 @@
 <?php 
-/**
- * Template Name: Activities
- */
+
     get_header();
 ?>
 

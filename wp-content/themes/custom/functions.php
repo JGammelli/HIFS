@@ -12,4 +12,19 @@ function wpdocs_custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 
+
+function custom_post_type(){
+	register_post_type("news",
+		array(
+			'labels'      => array(
+				'name'          => __('News', 'textdomain'),
+				'singular_name' => __('News', 'textdomain'),
+			),
+				'public'      => true,
+				'has_archive' => true,
+		)
+	);
+	register_taxonomy_for_object_type('category','news');
+}
+add_action('init', 'custom_post_type');
 ?>
