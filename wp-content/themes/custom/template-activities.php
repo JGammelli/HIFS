@@ -1,6 +1,6 @@
 <?php 
     /**
-     * Template Name: Archive
+     * Template Name: Activities
      */
     get_header();
 ?>
