@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
-	<meta name="HIFS" content="Högskolans IF Skövde">
+	<meta name="Högskolans IF Skövde" content="Högskolans IF Skövde">
 	<title>Högskolans IF Skövde</title>
 	<meta name="description" content="Studentkårens idrottsförening vid Högskolan i Skövde. Vi bedriver studentidrott där vi huvudsakligen har bollsporter och gruppaktiviteter på schemat. Jobbar ständigt för att utveckla studentidrotten för att våra studenter skall prestera bättre med sina studier vid Högkolan i Skövde."/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
