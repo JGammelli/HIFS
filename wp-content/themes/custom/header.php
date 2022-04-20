@@ -3,6 +3,9 @@
 
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
+	<meta name="HIFS" content="Högskolans IF Skövde">
+	<title>Högskolans IF Skövde</title>
+	<meta name="description" content="Studentkårens idrottsförening vid Högskolan i Skövde. Vi bedriver studentidrott där vi huvudsakligen har bollsporter och gruppaktiviteter på schemat. Jobbar ständigt för att utveckla studentidrotten för att våra studenter skall prestera bättre med sina studier vid Högkolan i Skövde."/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
