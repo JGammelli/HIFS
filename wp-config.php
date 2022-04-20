@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'heroku_6282eb54d8ccf58' );
 
 /** Database username */
-define( 'DB_USER', 'bd728aac28e9bb' );
+define( 'DB_USER', 'bb04f4e99628db' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'f8675e2e' );
+define( 'DB_PASSWORD', '73f1b97d' );
 
 /** Database hostname */
 define( 'DB_HOST', 'eu-cdbr-west-02.cleardb.net' );
