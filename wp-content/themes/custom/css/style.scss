@@ -15,9 +15,6 @@
   margin: 0;
   padding: 0;
   font-weight: 500;
-  // border-style: solid;
-  // border-width: 1px;
-  // border-color: red;
   max-width: 100vw;
 }
 body {
@@ -40,6 +37,11 @@ li {
 .tribe-events {
   min-height: 70vh;
 }
+.translate {
+  position: absolute;
+  top: -5%;
+  right: 0;
+}
 .underline {
   text-decoration: underline;
 }
@@ -50,17 +52,21 @@ li {
   z-index: 10;
 }
 .tribe-events {
-  padding-top: 10rem;
+  padding-top: 15rem;
 }
 .tribe-events-single {
-  padding-top: 10rem;
+  padding-top: 15rem;
 }
 .wp-block-columns {
   text-align: start;
-  padding-top: 5rem;
-  padding-left: 13rem;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
   td {
     padding-bottom: 2rem;
+  }
+  h3 {
+    padding-bottom: 1rem;
   }
 }
 
